@@ -59,6 +59,19 @@ namespace ProAgil.WebAPI.Migrations
 
                     b.ToTable("Testes");
                 });
+
+            modelBuilder.Entity("ProAgil.WebAPI.Model.TesteB", b =>
+                {
+                    b.Property<int>("TesteId")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Nome");
+
+                    b.HasKey("TesteId");
+
+                    b.ToTable("TesteB");
+                });
 #pragma warning restore 612, 618
         }
     }

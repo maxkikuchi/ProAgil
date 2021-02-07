@@ -14,5 +14,7 @@ namespace ProAgil.WebAPI.Data
         public DbSet<Evento> Eventos { get; set; }
 
         public DbSet<Teste> Testes { get; set; }
+        
+        public DbSet<TesteB> TesteB { get; set; }
     }
 }
