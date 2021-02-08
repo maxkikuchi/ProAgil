@@ -31,6 +31,10 @@ namespace ProAgil.WebAPI
                 x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
 
+            services.AddDbContext<DataContextTeste>(
+                x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionTeste"))
+            );
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
