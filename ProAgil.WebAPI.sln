@@ -5,6 +5,27 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProAgil.WebAPI", "ProAgil.WebAPI.csproj", "{862C7995-D9CB-4D11-BD73-F771D1D92804}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ProAgil-App", "..\ProAgil-App\", "{67316E96-93D2-4F24-A8A1-BA12299711D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2102"
+		Debug.AspNetCompiler.PhysicalPath = "..\ProAgil-App\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2102\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2102"
+		Release.AspNetCompiler.PhysicalPath = "..\ProAgil-App\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2102\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2102"
+		SlnRelativePath = "..\ProAgil-App\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{862C7995-D9CB-4D11-BD73-F771D1D92804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{862C7995-D9CB-4D11-BD73-F771D1D92804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{862C7995-D9CB-4D11-BD73-F771D1D92804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67316E96-93D2-4F24-A8A1-BA12299711D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67316E96-93D2-4F24-A8A1-BA12299711D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67316E96-93D2-4F24-A8A1-BA12299711D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{67316E96-93D2-4F24-A8A1-BA12299711D1}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
