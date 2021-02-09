@@ -35,6 +35,7 @@ namespace ProAgil.WebAPI
                 x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionTeste"))
             );
 
+            services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -52,6 +53,7 @@ namespace ProAgil.WebAPI
             }
 
             //app.UseHttpsRedirection();
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
             app.UseMvc();
         }
     }

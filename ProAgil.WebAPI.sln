@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProAgil.WebAPI", "ProAgil.WebAPI.csproj", "{862C7995-D9CB-4D11-BD73-F771D1D92804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularProject", "..\AngularProject\AngularProject.csproj", "{F6B5876F-6185-4233-BAFE-6790DED1CAEE}"
+EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ProAgil-App", "..\ProAgil-App\", "{67316E96-93D2-4F24-A8A1-BA12299711D1}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -36,6 +38,10 @@ Global
 		{862C7995-D9CB-4D11-BD73-F771D1D92804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{862C7995-D9CB-4D11-BD73-F771D1D92804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{862C7995-D9CB-4D11-BD73-F771D1D92804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B5876F-6185-4233-BAFE-6790DED1CAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B5876F-6185-4233-BAFE-6790DED1CAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B5876F-6185-4233-BAFE-6790DED1CAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B5876F-6185-4233-BAFE-6790DED1CAEE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{67316E96-93D2-4F24-A8A1-BA12299711D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67316E96-93D2-4F24-A8A1-BA12299711D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67316E96-93D2-4F24-A8A1-BA12299711D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
